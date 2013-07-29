@@ -1,0 +1,34 @@
+[user]
+  name = georgieff
+  email = lubo@georgieff.it
+[color "branch"]
+  current = red reverse white
+  local = white
+  remote = green
+[color]
+  ui=auto
+[color "diff"]
+  meta = BLACK bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse white bold
+[color "status"]
+  added = green
+  untracked = yellow
+[core]
+  editor = 'C:/Program Files/Sublime Text 2/sublime_text.exe' -w
+[push]
+  default = simple
+[init]
+  templatedir = ~/GitConfig/templates/
+[alias]
+  s = status
+  c = commit
+  co = checkout
+  br = branch
+  last = log -1 HEAD
+  ls = ls-files
+  pl = "!f() { git fetch; git rebase --keep-empty origin/`git rev-parse --abbrev-ref HEAD` ; }; f"
+  sync = "!git pl && git push"
+  fu = fetch upstream
+  fi = fetch integration
