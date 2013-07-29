@@ -26,9 +26,3 @@
   c = commit
   co = checkout
   br = branch
-  last = log -1 HEAD
-  ls = ls-files
-  pl = "!f() { git fetch; git rebase --keep-empty origin/`git rev-parse --abbrev-ref HEAD` ; }; f"
-  sync = "!git pl && git push"
-  fu = fetch upstream
-  fi = fetch integration
