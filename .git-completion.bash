@@ -1,0 +1,1 @@
+/Users/georgieff/.git-completion.bash
