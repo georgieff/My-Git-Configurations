@@ -1,0 +1,8 @@
+#!/bin/bash
+alias c="clear"
+alias htdocs="cd /Applications/XAMPP/htdocs"
+alias grepos="cd ~/GitRepos"
+alias ll="ls -GaF"
+alias saf="open /Applications/Safari.app/"
+alias refresh="source ~/.bashrc"
+

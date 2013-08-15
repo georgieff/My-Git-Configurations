@@ -1,1 +1,2 @@
-/Users/georgieff/.bash_profile
+#!/bin/bash
+source ~/.bashrc
